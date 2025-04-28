@@ -1,0 +1,8 @@
+.background {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(https://postfiles.pstatic.net/MjAyNTAzMjFfMjU4/MDAxNzQyNTE5Nzc4MDk0.-kGWcisJTmtgSEPFRYBJZgONoms6j1im-8nbf1dqZzYg.8xqMN0ivWVReAZnYC4ck1z4uKLto39-NoZ819QFicm8g.PNG/Screenshot_27.png?type=w3840);
+
+  background-position: center;
+  background-size: cover;
+}

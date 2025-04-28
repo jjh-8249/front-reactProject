@@ -1,0 +1,123 @@
+/* 전체 컨테이너 스타일 */
+.tarot-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  min-height: 100vh;
+  background: linear-gradient(
+    to bottom right,
+    #fff0f5,
+    #fef6ff
+  ); /* 부드러운 배경 그라디언트 */
+  text-align: center;
+  overflow: hidden;
+  font-family: "Gowun Dodum", sans-serif;
+}
+
+/* 타로카드 제목 스타일 */
+h1 {
+  color: #444;
+  margin-bottom: 20px;
+  font-size: 32px;
+  font-weight: 700;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* 버튼 스타일 */
+.draw-btn {
+  background-color: #ff8fab;
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  font-size: 16px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.draw-btn:hover {
+  background-color: #f76d9b;
+  transform: scale(1.05);
+}
+
+.draw-btn:disabled {
+  background-color: #f0a1b7;
+  cursor: not-allowed;
+}
+
+/* 카드 스타일 */
+.card {
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  max-width: 320px;
+  width: 100%;
+  margin-top: 20px;
+  animation: fadeIn 1s ease;
+}
+
+/* 고양이 이미지 스타일 */
+.cat-image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  object-fit: cover;
+  transition: transform 0.3s ease; /* 이미지 hover 효과 */
+}
+
+.cat-image:hover {
+  transform: scale(1.05); /* 이미지 확대 효과 */
+}
+
+/* 카드 제목 스타일 */
+.card-title {
+  font-size: 20.8px;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* 타로 메시지 스타일 */
+.card-message {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.4;
+  text-align: center;
+}
+
+/* Fade-In 애니메이션 */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 반응형 디자인 */
+@media (max-width: 600px) {
+  .tarot-container {
+    padding: 20px;
+  }
+
+  .card {
+    max-width: 90%;
+    margin-top: 10px;
+  }
+
+  .draw-btn {
+    font-size: 14px;
+    padding: 12px 24px;
+  }
+}
