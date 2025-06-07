@@ -10,4 +10,4 @@ update front project v.1
 ![Animation](./src/images/Animation.gif)
 
 #메인 페이지
-![Main Page](./src/images/mainpage.png)
+![Main Page](./src/images/MainPage.png)
