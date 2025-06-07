@@ -1,0 +1,67 @@
+/* 컨테이너 스타일 */
+.breeds-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  font-family: "Arial", sans-serif;
+  background-color: #f0f8ff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* 헤더 스타일 */
+.breeds-header {
+  font-size: 28px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* 리스트 스타일 */
+.breeds-list {
+  list-style: none; /* 불릿 제거 */
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  max-width: 700px;
+}
+
+/* 개별 품종 항목 스타일 */
+.breed-item {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+/* 항목에 호버 시 효과 */
+.breed-item:hover {
+  background-color: #fafafa;
+  transform: scale(1.02);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* 품종 이름 링크 스타일 */
+.breed-link {
+  text-decoration: none;
+  color: #007acc;
+  display: block;
+  font-size: 20px;
+}
+
+/* 품종 이름 강조 스타일 */
+.breed-name {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0;
+}
+
+/* 링크 호버 스타일 */
+.breed-link:hover {
+  color: #005fa3;
+  text-decoration: underline;
+}
