@@ -4,3 +4,6 @@
 
 update front project v.1
 
+---
+
+![Animation](./src/images/Animation.gif)
